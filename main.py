@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_Token = os.getenv("bot_Token")
+API_Token = os.getenv("BOT_TOKEN")
 if not API_Token:
     print("token was not found")
 else:
